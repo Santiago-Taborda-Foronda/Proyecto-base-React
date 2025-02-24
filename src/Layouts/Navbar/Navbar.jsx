@@ -1,20 +1,24 @@
 import React from 'react'
+import { Items } from '../../components/Items/Items'
+
 export const Navbar = () => {
   return (
-    <>
-     <nav>
-      <ul class="flex m-10  text-4xl space-x-15 justify-items-center" >
-        <li>
-            <a href="">OPCION1</a>
-        </li>
-        <li>
-            <a href="">OPCION2</a>
-        </li>
-        <li>
-            <a href="">OPCION3</a>
-        </li>
+    <nav>
+      <ul className='flex m-10  text-1xl space-x-15 justify-items-center text-white'>
+        <Items 
+          myStyles="flex m-10  text-1xl space-x-15 justify-items-center text-white"
+          contentItem="Home"
+        />
+        <Items 
+          myStyles="flex m-10  text-1xl space-x-15 justify-items-center text-white"
+          contentItem="Clase 1"
+        />
+        <Items 
+          myStyles="flex m-10  text-1xl space-x-15 justify-items-center text-white"
+          contentItem="Clase 2"
+        />
       </ul>
+     
     </nav>
-    </>
   )
 }
