@@ -3,15 +3,15 @@ export const Navbar = () => {
   return (
     <>
      <nav>
-      <ul>
+      <ul class="flex m-10  text-4xl space-x-15 justify-items-center" >
         <li>
-            <a href="">Calse 1</a>
+            <a href="">OPCION1</a>
         </li>
         <li>
-            <a href="">Calse 2</a>
+            <a href="">OPCION2</a>
         </li>
         <li>
-            <a href="">Calse 3</a>
+            <a href="">OPCION3</a>
         </li>
       </ul>
     </nav>
