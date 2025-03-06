@@ -9,10 +9,10 @@ export const Header = () => {
     <h1 class="text-3xl font-medium  t m-10 ">Introduccion a React 2025</h1> 
     
     <Navbar>
-      <ul>
-        <Items children="Home"/>
-        <Items children="Case1"/>
-        <Items children="Case2"/>
+      <ul class="flex space-x-10 justify">
+        <Items content="Home" route="/" styles= "text-white hover:text-yellow-400"/>
+        <Items content="Case1" route="/Class1" styles="text-white hover:text-yellow-400"/>
+        <Items content="Case2" route="/Case2" styles="text-white hover:text-yellow-400"/>
       </ul>
     </Navbar>
     
